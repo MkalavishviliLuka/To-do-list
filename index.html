@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mstyle.css">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <title>To do list</title>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader-in">
+            <p id="quote">„Pain is temporary, it may last for a year but eventually it will subside and something
+                beautiful will
+                take its place”</p>
+        </div>
+    </div>
+    <div class="remove-loading">
+        <img src="img/loading.gif" alt="">
+    </div>
+    <div class="container">
+        <div class="to-do">
+            <div class="input-field">
+                <input type="text" class="to-do-inp" name="to-do" placeholder="Type your goal here">
+                <button class="to-do-but">Submit</button>
+                <!-- <button class="to-do-save">Save</button> -->
+            </div>
+            <div class="category-field">
+                <div class="cat cat-1">
+                    <input type="checkbox" id="general" class="checkin" name="general" value="general">
+                    <label for="general" class="label">General</label>
+                </div>
+
+                <div class="cat cat-2">
+                    <input type="checkbox" id="work" class="checkin" name="work" value="work">
+                    <label for="work" class="label">Work</label>
+                </div>
+
+                <div class="cat cat-3">
+                    <input type="checkbox" id="exercise" class="checkin" name="exercise" value="exercise">
+                    <label for="exercise" class="label">Exercise</label>
+                </div>
+
+                <div class="cat cat-4">
+                    <input type="checkbox" id="travel" class="checkin" name="travel" value="travel">
+                    <label for="travel" class="label">Travel</label>
+                </div>
+
+                <div class="cat cat-5">
+                    <input type="checkbox" id="family" class="checkin" name="family" value="family">
+                    <label for="family" class="label">Family</label>
+                </div>
+
+                <div class="cat cat-6">
+                    <input type="checkbox" id="education" class="checkin" name="education" value="education">
+                    <label for="education" class="label">Education</label>
+                </div>
+
+                <div class="cat cat-7">
+                    <input type="checkbox" id="friends" class="checkin" name="friends" value="friends">
+                    <label for="friends" class="label">Friends</label>
+                </div>
+
+                <div class="cat cat-8">
+                    <input type="checkbox" id="relationship" class="checkin" name="relationship" value="relationship">
+                    <label for="relationship" class="label">Relationship</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-field">
+            <div class="list general-list">
+                <div class="list-header">
+                    <h2>General</h2>
+                </div>
+            </div>
+            <div class="list work-list">
+                <div class="list-header">
+                    <h2>Work</h2>
+                </div>
+            </div>
+            <div class="list exercise-list">
+                <div class="list-header">
+                    <h2>Exercise</h2>
+                </div>
+            </div>
+            <div class="list travel-list">
+                <div class="list-header">
+                    <h2>Travel</h2>
+                </div>
+            </div>
+            <div class="list family-list">
+                <div class="list-header">
+                    <h2>Family</h2>
+                </div>
+            </div>
+            <div class="list education-list">
+                <div class="list-header">
+                    <h2>Education</h2>
+                </div>
+            </div>
+            <div class="list friend-list">
+                <div class="list-header">
+                    <h2>Friends</h2>
+                </div>
+            </div>
+            <div class="list relationship-list">
+                <div class="list-header">
+                    <h2>Relationship</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
